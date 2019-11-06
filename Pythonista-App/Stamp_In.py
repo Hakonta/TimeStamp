@@ -97,7 +97,7 @@ def manual_stamp_in(time):
                     msg = 'Stamped in: {}'.format(time_stampin.strftime("%d/%m/%Y, %H:%M:%S"))
                     textlabel = v['stampin_label']
                     textlabel.text = msg
-		    show_time_passed(stamped_in_date)
+                    show_time_passed(stamped_in_date)
                     return
 
 
@@ -236,7 +236,7 @@ def stampin_manually():
     except ValueError:
         print('Input is not valid. Please ensure that you use 24-hour time format i.e. 13:37')
         msg = 'Input is not valid. Please ensure \nthat you use 24-hour time format i.e. 13:37'
-	textlabel = v['stampin_label']
+        textlabel = v['stampin_label']
         textlabel.text = msg
     manual_stamp_in(time_stampin)
     manual_stampin = False
