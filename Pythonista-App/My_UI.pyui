@@ -1,0 +1,338 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{46, 14}, {152, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "main_label",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "4724BBED-F6CC-4576-8E32-17314A7807EC",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "My Time Stamp App",
+          "font_size" : 24,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{81, 62}, {123, 53}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "1C3BC198-8C7E-486F-A427-85D0C5DF9070",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.925490,0.443137,0.250980,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.879121,0.153846,1.000000)",
+          "border_width" : 0,
+          "custom_attributes" : "",
+          "title" : "Stamp In",
+          "action" : "stamp_in",
+          "class" : "Button",
+          "name" : "stampin_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{46, 123}, {182, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 16,
+          "text_color" : "RGBA(1.000000,0.890196,0.231373,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "B6EEAC47-19DE-4FDB-8869-11890C21CC69",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "stampin_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{81, 155}, {123, 53}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "stamp_out",
+          "border_width" : 0,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.884615,0.192308,1.000000)",
+          "title" : "Stamp Out",
+          "uuid" : "2A50A165-8D80-4F5D-ADA2-3AEDE4C39106",
+          "background_color" : "RGBA(0.925490,0.443137,0.250980,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 5,
+          "name" : "stamp_out",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{46, 216}, {182, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 16,
+          "text_color" : "RGBA(1.000000,0.890196,0.231373,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "6903CCF4-0EDB-4F63-94B2-DBB941DFAF28",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "stampout_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 256}, {243, 54}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "manual_stamp_information_label",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{39, 164}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "C7F94423-0F15-4987-9F74-4B73DD2B671F",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Stamp In\/Out manually",
+          "font_size" : 24,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 392}, {60, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{39, 164}, {150, 32}}",
+          "uuid" : "F7B11843-6B4A-4B8D-8BD2-24B8CB66B3EB",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Hour",
+          "name" : "manual_hour_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{150, 392}, {54, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "action" : "show_hide_close_button",
+          "font_size" : 17,
+          "frame" : "{{14, 164}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "D6157930-AC33-4F53-9AFF-7BAEFF128814",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "hour_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 432}, {60, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{39, 164}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "4B0766BF-7927-4303-88E1-0BFAFB489DDA",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Minute",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{150, 432}, {54, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "action" : "show_hide_close_button",
+          "font_size" : 17,
+          "frame" : "{{14, 164}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "B2179384-274B-412A-910E-E889C47C8756",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "minute_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{124, 490}, {80, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_what_is_toggled",
+          "border_width" : 0,
+          "frame" : "{{88, 202}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.879121,0.153846,1.000000)",
+          "title" : "Submit",
+          "uuid" : "35CAF634-69CC-4B3F-9273-BCC197FDE46D",
+          "background_color" : "RGBA(0.925490,0.443137,0.250980,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 5,
+          "name" : "submit_button_input",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 353}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "toggle_switch",
+          "frame" : "{{101, 250}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "in_out_switch",
+          "uuid" : "416DF11E-43F2-4DA3-A531-05B072AD20DA"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{138, 352}, {111, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 24,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{52, 250}, {150, 32}}",
+          "uuid" : "706738DF-B8BA-4095-BD6C-0AAF91B93568",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Stamp In",
+          "name" : "in_out_toggle_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 531}, {235, 75}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "summarized_label",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{52, 250}, {150, 32}}",
+          "uuid" : "7B5C94FD-9341-4926-BB10-80FC7A43C1A6",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{257, 353}, {63, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "on_exit_button_click",
+          "border_width" : 0,
+          "frame" : "{{87, 250}, {80, 32}}",
+          "title" : "",
+          "uuid" : "B3A3CEC7-BA36-4C75-A27E-364456F9B7BD",
+          "class" : "Button",
+          "corner_radius" : 5,
+          "name" : "close_keyboard_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 298}, {243, 46}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "toggle_helper_label",
+          "text_color" : "RGBA(0.850980,0.850980,0.850980,1.000000)",
+          "frame" : "{{52, 250}, {150, 32}}",
+          "uuid" : "A6E78CE6-F364-4CD1-A685-A22C16F2D93C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "(Toggle the switch to change between stamping in or out)",
+          "font_size" : 16,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {255, 667}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
